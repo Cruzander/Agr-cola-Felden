@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Teste de PPI</title>
+        <link href="estilos.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div id="borda_conteudo">
+        <div id="principal">
+        <div id="banner">
+          <h1>Agropecuária Felden<br />
+            <span id="titulo_2">Junto à Agrícola Felden</span><br />
+            <span id="titulo_3">24 anos comprometida com o Agronegócio!</span>
+          </h1>
+        </div>
+        <div id="navegacao">
+            <div id="menu">
+                <a href="index.html">Início</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="áreas de atuação.html">Áreas de Atuação</a>
+                <a id="ativo" href="contato.html">Contato</a>
+            </div>
+        </div>
+        <div id="conteudo">
+            <h1>A equipe da Agropecuária Felden está pronta para atendê-los.</h1>
+            <p>
+            Os profissionais da Agropecuária Felden são todos especialistas e estão à disposição para tirar as
+            suas dúvidas.
+            </p>
+                <legend>Entre em contato conosco:</legend>
+                <p>
+                    <label for="nome">Nome:</label><br />
+                    <input type="text" id="nome" tabindex="1" />
+                </p>
+                <p>
+                    <label for="email">Email:</label><br />
+                    <input type="text" id="email" tabindex="2" />
+                </p>
+                <p>
+                    <label for="fone">Telefone:</label><br />
+                    <input type="text" id="fone" tabindex="3" />
+                </p>
+                <p>
+                    <label for="assunto">Assunto:</label><br />
+                    <input type="text" id="assunto" tabindex="4" />
+                </p>
+                <p>
+                    <label for="mensagem">Mensagem:</label><br />
+                    <textarea cols="20" rows="8" tabindex="5" id="mensagem"></textarea>
+                </p>
+                <p>
+                    <input type="reset" value="Limpar" tabindex="6" class="botao" />
+                    <span class="direita"><input type="submit" value="Enviar" tabindex="7" class="botao" /></span>
+                </p>
+                <title>window.location</title> <script type="text/javascript"> alert("Sua mensagem foi enviada com sucesso, em breve entraremos em contato!";</script>
+            <fieldset class="direita">
+                <legend>Onde Estamos:</legend>
+                <p>
+                    Rua dos Imigrantes, 357 - Oliveira.
+                    Santo Ângelo-RS.
+                    CEP: 98801-280.
+                </p>
+                <p><b>Contatos</b></p>
+                <p>Loja:</p>
+                <p>55 3312-6420</p>
+                <p>Celular:</p>
+                <p>55 9714-1984</p>
+                <p>E-mail: agricolafelden@gmail.com</p>
+            </fieldset>            
+        </div>
+            Desenvolvimento: <a href="ismalenz@hotmail.com">Ismael Augusto Lenz</a>
+            </div>
+        </div>
+    </body>
+</html>
